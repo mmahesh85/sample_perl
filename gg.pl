@@ -44,3 +44,5 @@ else {
         print $res->headers()->as_string;
     }
 }
+
+print "Test\n"
