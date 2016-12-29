@@ -12,7 +12,7 @@ if ( $#ARGV < 1 ) {
     exit 1;
 }
 
-use LWP::UserAgent
+use LWP::UserAgent;
 
 my $ua = LWP::UserAgent->new;
 $ua->agent(
